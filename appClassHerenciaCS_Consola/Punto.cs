@@ -34,6 +34,7 @@ namespace appClassHerenciaCS_Consola
         {
             double d = 0;
             d = x - p.x;
+            d = Math.Abs(d);
             return d;
         }
         public override string ToString()
